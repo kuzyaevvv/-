@@ -69,8 +69,8 @@ vector<vector<double>> multiplyMatrices(const vector<vector<double>>& A, const v
 int main() {
     try {
         // Чтение исходных матриц
-        auto A = readMatrixFromFile("D:/Параллельные вычисления/лаба один/x64/Debug/matrix_A.txt");
-        auto B = readMatrixFromFile("D:/Параллельные вычисления/лаба один/x64/Debug/matrix_B.txt");
+        auto A = readMatrixFromFile("matrix_A.txt");
+        auto B = readMatrixFromFile("matrix_B.txt");
 
         // Проверка совместимости размеров
         if (A.size() != B.size()) {
