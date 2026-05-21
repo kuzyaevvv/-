@@ -10,9 +10,9 @@ def read_matrix_from_file(filename):
     return matrix
 
 # Чтение матриц
-A = read_matrix_from_file('D:\\Параллельные вычисления\\лаба один\\x64\\Debug\\matrix_A.txt')
-B = read_matrix_from_file('D:\\Параллельные вычисления\\лаба один\\x64\\Debug\\matrix_B.txt')
-C_cpp = read_matrix_from_file('D:\\Параллельные вычисления\\лаба один\\result_matrix.txt')
+A = read_matrix_from_file('matrix_A.txt')
+B = read_matrix_from_file('matrix_B.txt')
+C_cpp = read_matrix_from_file('result_matrix.txt')
 
 # Вычисление правильного результата
 C_correct = np.dot(A, B)
